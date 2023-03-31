@@ -7,6 +7,6 @@ export default defineConfig({
   esbuild: {
     jsxFactory: 'AmberJsx.createElement',
     jsxImportSource: 'amber',
-    jsxInject: "import AmberJsx from 'amber';",
+    jsxInject: "import AmberJsx from 'amber';\n",
   },
 });

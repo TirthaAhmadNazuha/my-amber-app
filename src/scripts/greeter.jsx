@@ -1,4 +1,4 @@
-import { BaseComponent } from '../../../Amber/index';
+import { BaseComponent } from 'amber';
 
 const Greeter = class extends BaseComponent {
   constructor() {
