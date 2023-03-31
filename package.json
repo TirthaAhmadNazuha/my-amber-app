@@ -1,0 +1,28 @@
+{
+  "name": "my-amber-app",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.59.3",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "amber": "github:TirthaAhmadNazuha/Amber"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TirthaAhmadNazuha/my-amber-app.git"
+  },
+  "keywords": [],
+  "author": "Tirtha Ahmad Nazuha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TirthaAhmadNazuha/my-amber-app/issues"
+  },
+  "homepage": "https://github.com/TirthaAhmadNazuha/my-amber-app#readme"
+}
