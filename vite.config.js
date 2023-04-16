@@ -8,6 +8,6 @@ export default defineConfig({
     jsxFactory: 'AmberJsx.createElement',
     jsxFragment: 'AmberJsx.Fragment',
     jsxImportSource: 'amber',
-    jsxInject: "import { AmberJsx } from 'C:/Users/CITHA/Folder Nazu/project/amber/Amber';\n",
+    jsxInject: "import { AmberJsx } from 'amber';\n",
   },
 });
