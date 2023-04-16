@@ -1,10 +1,9 @@
-import '../styles/index.sass';
-import Greeter from './greeter';
+import App from './app';
 
-const greeter = new Greeter();
+const app = new App();
+app.processJSX();
 
-document.addEventListener('DOMContentLoaded', () => {
-  const app = document.getElementById('app');
-
-  app.insertAdjacentElement('beforeend', greeter.create());
+document.addEventListener('DOMContentLoaded', async () => {
+  const root = document.getElementById('root');
+  root.insertAdjacentElement('beforeend', app.create());
 });

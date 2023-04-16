@@ -5,14 +5,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build-show": "vite build && vite preview"
   },
   "devDependencies": {
     "sass": "^1.59.3",
     "vite": "^4.2.0"
-  },
-  "dependencies": {
-    "amber": "github:TirthaAhmadNazuha/Amber"
   },
   "repository": {
     "type": "git",
@@ -24,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/TirthaAhmadNazuha/my-amber-app/issues"
   },
-  "homepage": "https://github.com/TirthaAhmadNazuha/my-amber-app#readme"
+  "homepage": "https://github.com/TirthaAhmadNazuha/my-amber-app#readme",
+  "dependencies": {
+    "amber": "github:TirthaAhmadNazuha/Amber"
+  }
 }
