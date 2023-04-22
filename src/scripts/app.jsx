@@ -1,4 +1,4 @@
-import { StateComponent, BaseComponent } from '../../../Amber';
+import { StateComponent } from 'amber';
 import '../styles/index.sass';
 
 const App = class extends StateComponent {
