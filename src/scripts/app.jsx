@@ -1,4 +1,4 @@
-import { StateComponent } from 'amber';
+import { StateComponent, BaseComponent } from '../../../Amber';
 import '../styles/index.sass';
 
 const App = class extends StateComponent {
@@ -7,14 +7,17 @@ const App = class extends StateComponent {
     this.makeStates({
       count: 0
     });
+    this.one = false;
   }
 
   render() {
     return (
       <div className="app">
         <h1>Welcome to AmberJs</h1>
-        <p>SPA web JavaScript framework with JSX and state to helpful make easly interface.</p>
-        <button onClick={() => this.setState({ count: this.state.count.val + 1 })}>Count is: {this.state.count}</button>
+        <p>JavaScript Web Bases Component, make easly create interface.</p>
+        <button onClick={() => this.setState({
+          count: this.state.count.val + 1
+        })}>Increase Count: {this.state.count}</button>
       </div >
     );
   }

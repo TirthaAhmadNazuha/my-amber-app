@@ -7,7 +7,7 @@ export default defineConfig({
   esbuild: {
     jsxFactory: 'AmberJsx.createElement',
     jsxFragment: 'AmberJsx.Fragment',
-    jsxImportSource: 'amber',
-    jsxInject: "import { AmberJsx } from 'amber';\n",
+    jsxImportSource: 'C:/Users/CITHA/Folder Nazu/project/amber/Amber',
+    jsxInject: "import { AmberJsx } from 'C:/Users/CITHA/Folder Nazu/project/amber/Amber';\n",
   },
 });
