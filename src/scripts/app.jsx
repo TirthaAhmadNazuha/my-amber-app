@@ -4,10 +4,9 @@ import '../styles/index.sass';
 const App = class extends StateComponent {
   constructor() {
     super();
-    this.makeStates({
+    this.state = {
       count: 0
-    });
-    this.one = false;
+    };
   }
 
   render() {
@@ -16,7 +15,7 @@ const App = class extends StateComponent {
         <h1>Welcome to AmberJs</h1>
         <p>JavaScript Web Bases Component, make easly create interface.</p>
         <button onClick={() => this.setState({
-          count: this.state.count.val + 1
+          count: this.state.count + 1
         })}>Increase Count: {this.state.count}</button>
       </div >
     );
