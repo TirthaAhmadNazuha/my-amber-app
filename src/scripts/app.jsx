@@ -15,7 +15,7 @@ const App = class extends StateComponent {
         <h1>Welcome to AmberJs</h1>
         <p>JavaScript Web Bases Component, make easly create interface.</p>
         <button onClick={() => this.setState({
-          count: this.state.count + 1
+          count: this.state.count.valueOf() + 1
         })}>Increase Count: {this.state.count}</button>
       </div >
     );
